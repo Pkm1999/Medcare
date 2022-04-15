@@ -1,0 +1,24 @@
+li {
+    float: right;
+}
+
+    li Link {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size:24px;
+        
+    }
+
+        li Link:hover {
+            background-color: #111;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #111;
+        }

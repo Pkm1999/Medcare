@@ -80,9 +80,5 @@ public class LoginService
 	}
 	
 	
-	public Login getPassword(String uname)
-	{
-		return lrepo.getPassword(uname);
-		
-	}
+	
 }

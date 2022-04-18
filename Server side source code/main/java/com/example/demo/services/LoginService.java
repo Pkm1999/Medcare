@@ -78,11 +78,13 @@ public class LoginService
 		}
 		return null;
 	}
-	
-	
+
 	public Login getPassword(String uname)
 	{
 		return lrepo.getPassword(uname);
 		
 	}
+	
+	
+	
 }

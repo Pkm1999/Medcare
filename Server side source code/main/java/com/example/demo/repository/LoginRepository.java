@@ -15,8 +15,7 @@ public interface LoginRepository extends JpaRepository<Login, Integer>
 	@Query("select l.role,l.lid from Login l where username= :uname and password= :pwd")
 	public List<Object[]> checkLogin(String uname,String pwd);
 	
-	@Query("select l from Login l where username= :uname")
-	public Login getPassword(String uname);
+	
 	
 	
 }

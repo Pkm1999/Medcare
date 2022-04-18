@@ -23,6 +23,7 @@ public class LoginController
 	{
 		return  ls.checkLogin(login.getUsername(), login.getPassword());
 	}
+<<<<<<< HEAD
 
 	@PostMapping("/getPassword")
 	public Login getPassword(@RequestBody Login l)
@@ -33,4 +34,8 @@ public class LoginController
 	
 	
 
+=======
+	
+	
+>>>>>>> bf8da398c73ed7f1e19455a3e008e520de7f7147
 }
